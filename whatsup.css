@@ -1,0 +1,248 @@
+*{
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+.head{
+    
+    height: 91px;
+    width: 100%;
+    background-color:#128c7e;
+    position: fixed;
+    top: 0;
+   
+ 
+   
+}
+.svge {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+div.head img{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+
+.head1{
+    margin-left:436px;
+    margin-top:-31px;
+height: 26px;
+width: 815px;
+display: grid;
+grid-template-columns: 2fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+
+
+}
+div.head1 a{
+    color: white;
+    text-decoration: none;
+    font-family: "Varela Round", sans-serif;
+}
+
+div.head1 svg{
+    color: white;
+}
+div.head1 select{
+    margin-top: 5px;
+    margin-left: 24px;
+    background-color:#128c7e ;
+    color: white;
+    width: 80px;
+}
+div.sec1{
+   margin-top: 152px;
+    width: 100%;
+    height: 580px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hp{
+    margin-left: 355px;
+margin-top: 50px;
+}
+div.sec1 h1{
+
+font-size: 33px;
+line-height: 43px;
+font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+div.sec1 p{
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+div.sec1 img{
+    height: 530px;
+    margin-left: 110px;
+}
+.sec2{
+    height: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-columns:30px 700px 30px 700px 30px ;
+    
+}
+
+.div22{
+    background-color: #D8E8EA;
+    text-align: center;
+   
+}
+div.div22 h1{
+   margin-top: 25px;
+    font-weight: 700;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+div.div22 p{
+    margin-top: 20px;
+    font-size :20px;
+
+}
+div.div22 img{
+    padding-top: 5%;
+    width: 55%;
+    height: 58%;
+    margin-top: 25px;
+}
+.div44{
+  
+    background-color:#E7F0E4;
+}
+div.div44 img{
+   
+    height: 40%;
+    width: 96%;
+    margin-top: 25px;
+    margin-left: 25px;
+} 
+div.div44 h3{
+    margin-top: 112px;
+   text-align: center;
+    color: #5E5E5E;
+    font-size: 16px;
+    letter-spacing: .15em
+}
+div.div44 h1{
+    align-items: center;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 700;
+    text-align: center;
+}
+div.div44 p{
+    text-align: center;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.linkbutton{
+    display: grid;
+    grid-template-rows: 56px 55px 88px;
+}
+.link2{
+    display:inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #77d7c8;
+    line-height: 120%;
+border-radius: 40px;
+block-size:50px;
+
+color: #128c7e;
+font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+font-weight: 400;
+padding: 16px 32px;
+    padding-top: 24px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+    padding-left: 32px;
+    text-align: center;
+    margin-left: 42%;
+}
+div.hp a{
+    color: #1CB39B;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 266%;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: -webkit-match-parent;
+}
+
+.footmain{
+    height: 341px;
+    background-color:#273443 ;
+    position: relative;
+ 
+
+}
+.footsub1{
+    width: 1050px;
+    height: 229px;
+    
+    position: absolute;
+    left: 220px;
+    top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    font-size: 12px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+div.footsub1 a{
+    color: white;
+    font-size: 18px;
+    line-height: 31px;
+    text-decoration: none;
+    position: relative;
+}
+div.footsub1 a:hover{
+    text-decoration:underline ;
+}
+.footerl{
+    height: 100px;
+    background-color:#1c1e21;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+
+}
+div.footerl h3{
+    margin-top: 35px;
+}
+.aaaaaaa{
+    
+    margin-top: 35px;
+
+}
+
+div.footerl a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
